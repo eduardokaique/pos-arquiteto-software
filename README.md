@@ -104,6 +104,21 @@ http://localhost:3000/clientes
 | `npx prisma migrate dev`       | Executa e gera novas migrations        |
 | `npx prisma studio`            | Abre interface web para visualizar dados |
 
+## 🧩 Diagrama Arquitetural (C4 Model)
+
+### 1. Diagrama de Contexto
+![Context Diagram](./c4-model/context-diagram.png)
+
+### 2. Diagrama de Containers
+![Context Container](./c4-model/container-diagram.png)
+
+### 3. Diagrama de Componentes
+![Context Component](./c4-model/component-diagram.png)
+
+### 4. Diagrama de Código
+![Context Code](./c4-model/code-diagram.png)
+
+
 ---
 
 ## 🧾 Licença
