@@ -1,0 +1,145 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6" pages="4">
+  <diagram name="Context Diagram" id="lsfvfHgySQQB8VhmqBo6">
+    <mxGraphModel dx="724" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YYwLNCn-uoPwSz3iRJcc-5" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YYwLNCn-uoPwSz3iRJcc-1" target="YYwLNCn-uoPwSz3iRJcc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YYwLNCn-uoPwSz3iRJcc-1" value="Parceiro&lt;br&gt;(Cliente, Sistema Externo)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YYwLNCn-uoPwSz3iRJcc-7" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YYwLNCn-uoPwSz3iRJcc-4" target="YYwLNCn-uoPwSz3iRJcc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YYwLNCn-uoPwSz3iRJcc-4" value="API RESTful (Node.js)&lt;div&gt;- Expõe dados de Clientes&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YYwLNCn-uoPwSz3iRJcc-6" value="Banco de Dados SQLite" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uESwTowCC8Ij0_TWS4Ln" name="Container Diagram">
+    <mxGraphModel dx="1124" dy="1014" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rFm42BsiN2PwcGWtQ9sS-11" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rFm42BsiN2PwcGWtQ9sS-1" target="rFm42BsiN2PwcGWtQ9sS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rFm42BsiN2PwcGWtQ9sS-1" value="API RESTful&amp;nbsp;(Node.js + Express)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-132" y="-81" width="199" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="rFm42BsiN2PwcGWtQ9sS-2" value="Controllers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rFm42BsiN2PwcGWtQ9sS-1">
+          <mxGeometry x="39.5" y="48" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rFm42BsiN2PwcGWtQ9sS-3" value="Services" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rFm42BsiN2PwcGWtQ9sS-1">
+          <mxGeometry x="39.5" y="108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rFm42BsiN2PwcGWtQ9sS-4" value="Repositories" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rFm42BsiN2PwcGWtQ9sS-1">
+          <mxGeometry x="39.5" y="168" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rFm42BsiN2PwcGWtQ9sS-9" value="Prisma Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rFm42BsiN2PwcGWtQ9sS-1">
+          <mxGeometry x="39.5" y="228" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rFm42BsiN2PwcGWtQ9sS-10" value="Banco de Dados SQLite" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="165" y="53" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_cmi6EmlS6_g7ihj1UCz" name="Component Diagram">
+    <mxGraphModel dx="1124" dy="1014" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AAbleAzJAJpQ0x4_cjUR-1" value="API RESTful&amp;nbsp;(Node.js + Express)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-111" y="-57" width="299" height="431" as="geometry" />
+        </mxCell>
+        <mxCell id="AAbleAzJAJpQ0x4_cjUR-7" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="AAbleAzJAJpQ0x4_cjUR-1" source="AAbleAzJAJpQ0x4_cjUR-2" target="AAbleAzJAJpQ0x4_cjUR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AAbleAzJAJpQ0x4_cjUR-2" value="Controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AAbleAzJAJpQ0x4_cjUR-1">
+          <mxGeometry x="89.5" y="48" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AAbleAzJAJpQ0x4_cjUR-9" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="AAbleAzJAJpQ0x4_cjUR-1" source="AAbleAzJAJpQ0x4_cjUR-6" target="AAbleAzJAJpQ0x4_cjUR-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AAbleAzJAJpQ0x4_cjUR-6" value="Service" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="AAbleAzJAJpQ0x4_cjUR-1">
+          <mxGeometry x="89.5" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AAbleAzJAJpQ0x4_cjUR-8" value="Repository" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="AAbleAzJAJpQ0x4_cjUR-1">
+          <mxGeometry x="89.5" y="236" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AAbleAzJAJpQ0x4_cjUR-10" value="Prisma Client" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="AAbleAzJAJpQ0x4_cjUR-1">
+          <mxGeometry x="89.5" y="331" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AAbleAzJAJpQ0x4_cjUR-11" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="AAbleAzJAJpQ0x4_cjUR-1" source="AAbleAzJAJpQ0x4_cjUR-8" target="AAbleAzJAJpQ0x4_cjUR-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9i0qZ-XjsRJM2zcuH9zd" name="Code Diagram">
+    <mxGraphModel dx="1434" dy="1277" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pfruOnMC59jseGwHziMo-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="pfruOnMC59jseGwHziMo-6" target="pfruOnMC59jseGwHziMo-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pfruOnMC59jseGwHziMo-6" value="ClienteController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-117.75" y="-64" width="219.5" height="173" as="geometry" />
+        </mxCell>
+        <mxCell id="pfruOnMC59jseGwHziMo-7" value="- clienteService : ClienteService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pfruOnMC59jseGwHziMo-6">
+          <mxGeometry y="26" width="219.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pfruOnMC59jseGwHziMo-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="pfruOnMC59jseGwHziMo-6">
+          <mxGeometry y="52" width="219.5" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pfruOnMC59jseGwHziMo-10" value="&lt;div&gt;+ criarCliente(req, res)&lt;/div&gt;&lt;div&gt;+ listarClientes(req, res)&lt;/div&gt;&lt;div&gt;+ buscarClientePorId(req, res)&lt;/div&gt;&lt;div&gt;+ buscarClientePorNome(req, res)&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ atualizarCliente(req, res)&lt;/div&gt;&lt;div&gt;+ deletarCliente(req, res)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pfruOnMC59jseGwHziMo-6">
+          <mxGeometry y="60" width="219.5" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="pfruOnMC59jseGwHziMo-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="pfruOnMC59jseGwHziMo-11" target="pfruOnMC59jseGwHziMo-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pfruOnMC59jseGwHziMo-11" value="ClienteService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="159" width="250" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="pfruOnMC59jseGwHziMo-12" value="- clienteRepository : ClienteRepository" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pfruOnMC59jseGwHziMo-11">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pfruOnMC59jseGwHziMo-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="pfruOnMC59jseGwHziMo-11">
+          <mxGeometry y="52" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pfruOnMC59jseGwHziMo-14" value="&lt;div&gt;+ criar(data)&lt;/div&gt;&lt;div&gt;+ listar()&lt;/div&gt;&lt;div&gt;+ buscarPorId(id)&lt;/div&gt;&lt;div&gt;+ buscarPorNome(nome)&lt;/div&gt;&lt;div&gt;+ atualizar(id, data)&lt;/div&gt;&lt;div&gt;+ deletar(id)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pfruOnMC59jseGwHziMo-11">
+          <mxGeometry y="60" width="250" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="pfruOnMC59jseGwHziMo-25" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="pfruOnMC59jseGwHziMo-16" target="pfruOnMC59jseGwHziMo-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pfruOnMC59jseGwHziMo-16" value="ClienteRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-88" y="376" width="160" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="pfruOnMC59jseGwHziMo-17" value="- prismaClient" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pfruOnMC59jseGwHziMo-16">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pfruOnMC59jseGwHziMo-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="pfruOnMC59jseGwHziMo-16">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pfruOnMC59jseGwHziMo-19" value="&lt;div&gt;+ criar(data)&lt;/div&gt;&lt;div&gt;+ listar()&lt;/div&gt;&lt;div&gt;+ buscarPorId(id)&lt;/div&gt;&lt;div&gt;+ buscarPorNome(nome)&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ atualizar(id, data)&lt;/div&gt;&lt;div&gt;+ deletar(id)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pfruOnMC59jseGwHziMo-16">
+          <mxGeometry y="60" width="160" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="pfruOnMC59jseGwHziMo-21" value="&lt;div&gt;Prisma Client&amp;nbsp;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-179" y="595" width="342" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="pfruOnMC59jseGwHziMo-24" value="&lt;div&gt;(Gerencia conexão com SQLite,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;execução de queries, etc.)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pfruOnMC59jseGwHziMo-21">
+          <mxGeometry y="26" width="342" height="45" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
