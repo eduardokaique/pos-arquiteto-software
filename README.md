@@ -104,7 +104,7 @@ http://localhost:3000/clientes
 | `npx prisma migrate dev`       | Executa e gera novas migrations        |
 | `npx prisma studio`            | Abre interface web para visualizar dados |
 
-## 🧩 Diagrama Arquitetural (MVC)
+## 🧩 Diagrama Arquitetural (C4 Model)
 
 ![Context Diagram](./c4-model/context-diagram.png)
 ![Context Container](./c4-model/container-diagram.png)
